@@ -1,15 +1,97 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+body {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px
+}
+
+/*body {*/
+/*    display: table-row-group;*/
+/*    vertical-align: middle;*/
+/*    border-color: inherit;*/
+/*}*/
+
+
+h1 {
+    display: block;
+    /*margin-block-start: 0.67em;*/
+    /*margin-block-end: 0.67em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+    font-size: 2em;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+p {
+    display: block;
+    /*margin-block-start: 1em;*/
+    /*margin-block-end: 1em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+}
+
+a:visited {
+    color: #666;
+}
+
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    padding-bottom: 5px;
+    /*display: table-cell;*/
+    /*vertical-align: inherit;*/
+    /*font-weight: bold;*/
+    /*text-align: -internal-center;*/
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    /*margin-block-start: 0.83em;*/
+    /*margin-block-end: 0.83em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+    font-weight: bold;
+}
+
+div.field, div.actions {
+    margin-bottom: 10px;
+}
+
+
+
